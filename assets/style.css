@@ -223,3 +223,41 @@ html .ui-panel-page-container-a {
         margin-bottom: 10px !important;
     }
 /* criteria page end */
+
+
+/* course page */
+
+table th,td{
+    text-align: center !important;
+    border: 0.5px solid grey !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+table tr th{
+    background-color: #2C4E80 !important;
+    color: white !important;
+    
+}
+
+.ui-input-search:after {
+    position: absolute;
+    left: 30px !important;
+    top: 50%;
+    margin-top: -7px;
+    content: "";
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    filter: Alpha(Opacity = 50);
+    opacity: .5;
+}
+
+.course-heading{
+    margin: 5px;
+}
+
+.course-heading h2{
+    text-align: center;
+}
