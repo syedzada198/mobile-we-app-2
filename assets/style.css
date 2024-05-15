@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
-body{
+
+body {
     font-family: sans-serif !important;
 }
 
@@ -46,9 +47,8 @@ a {
 }
 
 .logo-heading {
-    /* padding: 10px; */
     margin-left: 15px;
-    
+
 }
 
 
@@ -132,7 +132,7 @@ html .ui-panel-page-container-a {
 
 }
 
-.main-prg-heading h2{
+.main-prg-heading h2 {
     margin: 15px 0 10px 0;
     text-align: center;
 }
@@ -167,9 +167,10 @@ html .ui-panel-page-container-a {
     margin-top: 5px;
 }
 
-.ui-block-b h2{
+.ui-block-b h2 {
     font-size: 20px;
 }
+
 .ui-grid-a {
     margin-bottom: 10px;
     background-color: #e9e9e9 !important;
@@ -178,75 +179,87 @@ html .ui-panel-page-container-a {
 /* home page end */
 
 /* login page start */
-.login-h2{
+.login-h2 {
     margin: 20px 0;
 }
-.login-h2 h2{
+
+.login-h2 h2 {
     text-align: center;
 }
 
-.ui-input-text{
+.ui-input-text {
     margin-top: 15px !important;
     border-radius: 15px !important;
     padding: 5px !important;
 }
-.add-margin{
+
+.add-margin {
     margin-top: 20px !important;
 }
-.add-radius{
-    border-radius: 20px !important;
+
+.add-margin a {
+
+    color: inherit !important;
+    text-decoration: none;
 }
+
 
 /* login page end */
 
 /* criteria page start */
-    .criteria-h2{
-        margin-top: 30px;
-    }
-    .criteria-h2 h2{
-        text-align: center;
-    }
+.criteria-h2 {
+    margin-top: 30px;
+}
 
-    .criteria-text {
-        margin: 25px;
-    }
-    .criteria-h3{
-        margin: 5px;
-    }
-    .criteria-h3 h3{
-        text-align: center;
-    }
-    
-    .set-faqs {
-        margin: 0 10px !important;
-    }
-    
-    .set-faqs p {
-        background-color: #f9f9f9 !important;
-    
-    }
+.criteria-h2 h2 {
+    text-align: center;
+}
 
-    .add-m{
-        margin-bottom: 10px !important;
-    }
+.criteria-text {
+    margin: 25px;
+}
+
+.criteria-h3 {
+    margin: 5px;
+}
+
+.criteria-h3 h3 {
+    text-align: center;
+}
+
+.set-faqs {
+    margin: 0 10px !important;
+}
+
+.set-faqs p {
+    background-color: #f9f9f9 !important;
+
+}
+
+.add-m {
+    margin-bottom: 10px !important;
+}
+
 /* criteria page end */
 
 
 /* course page */
 
-table th,td{
+table th,
+td {
     text-align: center !important;
     border: 0.5px solid grey !important;
     text-shadow: none !important;
     box-shadow: none !important;
 }
 
-table tr th{
+table tr th {
     background-color: #2C4E80 !important;
     color: white !important;
-    
+
 }
-.ui-input-has-clear{
+
+.ui-input-has-clear {
     padding: 0 !important;
 }
 
@@ -254,24 +267,29 @@ table tr th{
     position: absolute;
     left: 30px !important;
     top: 50%;
-    /* margin-top: -7px; */
     content: "";
     background-position: center center;
     background-repeat: no-repeat;
     width: 14px;
     height: 14px;
-    filter: Alpha(Opacity = 50);
+    filter: Alpha(Opacity=50);
     opacity: .5;
 }
 
-.course-heading{
+.course-heading {
     margin-top: -12px;
 }
 
-.course-heading h2{
+.course-heading h2 {
     text-align: center;
 }
-.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
+
+.ui-body-a,
+.ui-page-theme-a .ui-body-inherit,
+html .ui-bar-a .ui-body-inherit,
+html .ui-body-a .ui-body-inherit,
+html body .ui-group-theme-a .ui-body-inherit,
+html .ui-panel-page-container-a {
     background-color: #f9f9f9;
 }
 
@@ -323,9 +341,10 @@ input {
     margin-top: 20px !important;
 }
 
-.ui-field-contain{
+.ui-field-contain {
     padding: 5px !important;
 }
+
 .ui-content input,
 textarea {
     background-color: white !important;
@@ -357,7 +376,8 @@ textarea {
     border-radius: 20px;
     height: 120px !important;
 }
-.ui-mobile label{
+
+.ui-mobile label {
     font-size: 20px;
     margin-left: 15px !important;
 }
@@ -367,10 +387,12 @@ textarea {
     border: none !important;
     border-radius: 20px !important;
 }
-.add-text-set{
+
+.add-text-set {
     margin: 20px 10px;
 }
-.add-text-set p{
+
+.add-text-set p {
     margin-top: 15px;
     font-size: 15px;
 }
@@ -379,32 +401,56 @@ textarea {
     margin-right: 20px;
 }
 
-.fa-location-dot{
+.fa-location-dot {
     margin-left: 1.5px;
 }
+
 /* contact page end */
 
 
 /* aboutus page start */
 
-.educational-h2{
+.educational-h2 {
     text-align: center !important;
     margin: 25px;
 }
+
 .aboutus p {
     text-align: center;
     margin: 20px;
 }
+
 .aboutus .about-img {
     background: url(img/aboutimg1.jpg);
     height: 250px;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .aboutus .about-img2 {
     background: url(img/aboutimg2.jpg);
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* aboutus page end */
+
+/* Register page start */
+.set-lst-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.set-lst-btn button {
+    width: 40%;
+}
+
+.set-lst-btn a {
+    text-decoration: none;
+    color: inherit !important;
+    font-size: 18px;
+}
+
+/* Register page end */
