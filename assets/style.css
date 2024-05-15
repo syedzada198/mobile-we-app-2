@@ -370,8 +370,11 @@ textarea {
 
 .ui-input-text {
     margin: 0 !important;
+    width: 100% !important;
 }
-
+.ui-select {
+    width: 100% !important;
+}
 .contact-form textarea {
     border-radius: 20px;
     height: 120px !important;
