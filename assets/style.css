@@ -186,3 +186,33 @@ html .ui-panel-page-container-a {
 .add-radius{
     border-radius: 20px !important;
 }
+
+/* login page end */
+
+/* criteria page start */
+    .criteria-h2{
+        margin-top: 30px;
+    }
+    .criteria-h2 h2{
+        text-align: center;
+    }
+
+    .criteria-text {
+        margin: 25px;
+    }
+    .criteria-h3{
+        margin: 5px;
+    }
+    .criteria-h3 h3{
+        text-align: center;
+    }
+    
+    .set-faqs {
+        margin: 0 10px !important;
+    }
+    
+    .set-faqs p {
+        background-color: #f9f9f9 !important;
+    
+    }
+/* criteria page end */
