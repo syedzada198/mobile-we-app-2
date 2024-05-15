@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/6061977da9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <!-- Home page strat -->
+    <div data-role="page" id="home" class="page home-page">
+        <header>
+            <div data-role="header" data-position="fixed">
+                <div class="nav-header1">
+                    <h3 class="logo-heading"><a href="#home-page">Exchange Portal</a></h3>
+                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay">
+                    <ul data-role="listview" style="background-color: #2C4E80;">
+                        <li><a href="#aboutus-page" data-rel="close">About Us</a></li>
+                        <li><a href="#application-page" data-rel="close">Application</a></li>
+                        <li><a href="#accomodation-page" data-rel="close">Accommodation</a></li>
+                        <li><a href="#downloads-page" data-rel="close">Download</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="main-img1"></div>
+            <div class="learn-more-btn">
+                <a href="#faqs-page" data-theme="darkcyan" class="ui-btn ui-btn-darkcyan">Learn more<i
+                        class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="main-prg-heading">
+                <h2>Programs</h2>
+            </div>
+            <div role="main" class="ui-content">
+                <div class="ui-grid-a set">
+                    <div class="ui-block-a">
+                        <img src="assets/img/1.jpg" alt="error" height="170px">
+                    </div>
+                    <div class="ui-block-b">
+                        <h2>BSc </h2>
+                        <p>Unraveling science through research and experimentation.</p>
+                    </div>
+                </div>
+                <div class="ui-grid-a set">
+                    <div class="ui-block-a">
+                        <img src="assets/img/2.jpg" alt="error" height="170px">
+                    </div>
+                    <div class="ui-block-b">
+                        <h2>BA </h2>
+                        <p>Exploring humanity through creativity and culture.</p>
+                    </div>
+                </div>
+                <div class="ui-grid-a set">
+                    <div class="ui-block-a">
+                        <img src="assets/img/3.jpg" alt="error" height="170px">
+                    </div>
+                    <div class="ui-block-b">
+                        <h2>BFA </h2>
+                        <p>Expressing aesthetics through visual arts.</p>
+                    </div>
+                </div>
+                <div class="ui-grid-a set">
+                    <div class="ui-block-a">
+                        <img src="assets/img/4.jpg" alt="error" height="170px">
+                    </div>
+                    <div class="ui-block-b">
+                        <h2>BEd </h2>
+                        <p>Nurturing minds through pedagogy and curriculum.
+                    </div>
+                </div>
+                <div class="ui-grid-a set">
+                    <div class="ui-block-a">
+                        <img src="assets/img/5.jpg" alt="error" height="170px">
+                    </div>
+                    <div class="ui-block-b">
+                        <h2>LLB </h2>
+                        <p>Understanding jurisprudence and advocating for justice.</p>
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer" data-position="fixed" style="border: none;" class="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#programs-page" class="ui-btn"><i class="fa-solid fa-star"></i><br>Programs</a>
+                        </li>
+                        <li><a href="#faqs-page" class="ui-btn"><i class="fa-solid fa-question"></i></i><br>FAQs</a>
+                        </li>
+                        <li><a href="#home-page" class="ui-btn"><i class="fa-solid fa-house"></i><br>Home</a></li>
+                        <li><a href="#news-page" class="ui-btn"><i class="fa-solid fa-newspaper"></i><br>News</a></li>
+                        <li><a href="#contactus-page" class="ui-btn"><i
+                                    class="fa-regular fa-address-book"></i><br>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- Home page end -->
+</body>
+
+</html>
