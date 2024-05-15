@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body{
+    font-family: sans-serif !important;
 }
 
 /* header start */
@@ -239,12 +243,15 @@ table tr th{
     color: white !important;
     
 }
+.ui-input-has-clear{
+    padding: 0 !important;
+}
 
 .ui-input-search:after {
     position: absolute;
     left: 30px !important;
     top: 50%;
-    margin-top: -7px;
+    /* margin-top: -7px; */
     content: "";
     background-position: center center;
     background-repeat: no-repeat;
@@ -255,9 +262,149 @@ table tr th{
 }
 
 .course-heading{
-    margin: 5px;
+    margin-top: -12px;
 }
 
 .course-heading h2{
     text-align: center;
 }
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
+    background-color: #f9f9f9;
+}
+
+/* contact page start */
+
+.follow-us {
+    padding: 20px;
+}
+
+.follow-us h2 {
+    text-align: center;
+}
+
+.ui-btn {
+    background-color: #2C4E80 !important;
+    color: white !important;
+    border-radius: 10px !important;
+    font-weight: normal !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+
+}
+
+.ui-page {
+    background-color: #f9f9f9 !important;
+}
+
+.follow-us .icon {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+
+}
+
+.follow-us .icon i {
+    padding: 0 10px;
+}
+
+input {
+    border: 1px solid grey !important;
+    padding: 12px !important;
+    border-radius: 20px !important;
+
+
+}
+
+.contact-form {
+    margin-top: 20px !important;
+}
+
+.ui-field-contain{
+    padding: 5px !important;
+}
+.ui-content input,
+textarea {
+    background-color: white !important;
+}
+
+.ui-input-text {
+    background-color: #f9f9f9 !important;
+}
+
+.form-heading {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.ui-shadow-inset {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.ui-field-contain {
+    border: none !important;
+}
+
+.ui-input-text {
+    margin: 0 !important;
+}
+
+.contact-form textarea {
+    border-radius: 20px;
+    height: 120px !important;
+}
+.ui-mobile label{
+    font-size: 20px;
+    margin-left: 15px !important;
+}
+
+.contact-btn {
+    background-color: #2C4E80 !important;
+    border: none !important;
+    border-radius: 20px !important;
+}
+.add-text-set{
+    margin: 20px 10px;
+}
+.add-text-set p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.add-text-set i {
+    margin-right: 20px;
+}
+
+.fa-location-dot{
+    margin-left: 1.5px;
+}
+/* contact page end */
+
+
+/* aboutus page start */
+
+.educational-h2{
+    text-align: center !important;
+    margin: 25px;
+}
+.aboutus p {
+    text-align: center;
+    margin: 20px;
+}
+.aboutus{
+
+}
+.aboutus .about-img {
+    background: url(img/aboutimg1.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutus .about-img2 {
+    background: url(img/aboutimg2.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* aboutus page end */

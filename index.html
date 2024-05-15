@@ -24,7 +24,7 @@
                 <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay">
                     <ul data-role="listview" style="background-color: #2C4E80;">
                         <li><a href="#aboutus-page" data-rel="close">About Us</a></li>
-                        <li><a href="#application-page" data-rel="close">Application</a></li>
+                        <li><a href="#login-page" data-rel="close">Login</a></li>
                         <li><a href="#accomodation-page" data-rel="close">Accommodation</a></li>
                         <li><a href="#downloads-page" data-rel="close">Download</a></li>
                     </ul>
@@ -91,8 +91,9 @@
                     <li><a href="#criteria-page" class="ui-btn"><i class="fas fa-sticky-note"></i></i><br>Criteria</a>
                     </li>
                     <li><a href="#home-page" class="ui-btn"><i class="fa-solid fa-house"></i><br>Home</a></li>
-                    <li><a href="#news-page" class="ui-btn"><i class="fa-solid fa-calendar-day"></i><br>Events</a></li>
-                    <li><a href="#login-page" class="ui-btn"><i class="fa-solid fa-address-card"></i><br>Contact</a>
+                    <li><a href="#events-page" class="ui-btn"><i class="fa-solid fa-calendar-day"></i><br>Events</a>
+                    </li>
+                    <li><a href="#contactus-page" class="ui-btn"><i class="fa-solid fa-address-card"></i><br>Contact</a>
                     </li>
                 </ul>
             </div>
@@ -113,7 +114,7 @@
                 <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay">
                     <ul data-role="listview" style="background-color: #2C4E80;">
                         <li><a href="#aboutus-page" data-rel="close">About Us</a></li>
-                        <li><a href="#application-page" data-rel="close">Application</a></li>
+                        <li><a href="#login-page" data-rel="close">Login</a></li>
                         <li><a href="#accomodation-page" data-rel="close">Accommodation</a></li>
                         <li><a href="#downloads-page" data-rel="close">Download</a></li>
                     </ul>
@@ -154,8 +155,9 @@
                     <li><a href="#criteria-page" class="ui-btn"><i class="fas fa-sticky-note"></i></i><br>Criteria</a>
                     </li>
                     <li><a href="#home-page" class="ui-btn"><i class="fa-solid fa-house"></i><br>Home</a></li>
-                    <li><a href="#news-page" class="ui-btn"><i class="fa-solid fa-calendar-day"></i><br>Events</a></li>
-                    <li><a href="#login-page" class="ui-btn"><i class="fa-solid fa-address-card"></i><br>Contact</a>
+                    <li><a href="#events-page" class="ui-btn"><i class="fa-solid fa-calendar-day"></i><br>Events</a>
+                    </li>
+                    <li><a href="#contactus-page" class="ui-btn"><i class="fa-solid fa-address-card"></i><br>Contact</a>
                     </li>
                 </ul>
             </div>
@@ -175,7 +177,7 @@
                 <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay">
                     <ul data-role="listview" style="background-color: #2C4E80;">
                         <li><a href="#aboutus-page" data-rel="close">About Us</a></li>
-                        <li><a href="#application-page" data-rel="close">Application</a></li>
+                        <li><a href="#login-page" data-rel="close">Login</a></li>
                         <li><a href="#accomodation-page" data-rel="close">Accommodation</a></li>
                         <li><a href="#downloads-page" data-rel="close">Download</a></li>
                     </ul>
@@ -278,8 +280,9 @@
                     <li><a href="#criteria-page" class="ui-btn"><i class="fas fa-sticky-note"></i></i><br>Criteria</a>
                     </li>
                     <li><a href="#home-page" class="ui-btn"><i class="fa-solid fa-house"></i><br>Home</a></li>
-                    <li><a href="#news-page" class="ui-btn"><i class="fa-solid fa-calendar-day"></i><br>Events</a></li>
-                    <li><a href="#login-page" class="ui-btn"><i class="fa-solid fa-address-card"></i><br>Contact</a>
+                    <li><a href="#events-page" class="ui-btn"><i class="fa-solid fa-calendar-day"></i><br>Events</a>
+                    </li>
+                    <li><a href="#contactus-page" class="ui-btn"><i class="fa-solid fa-address-card"></i><br>Contact</a>
                     </li>
                 </ul>
             </div>
@@ -301,7 +304,7 @@
                 <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay">
                     <ul data-role="listview" style="background-color: #2C4E80;">
                         <li><a href="#aboutus-page" data-rel="close">About Us</a></li>
-                        <li><a href="#application-page" data-rel="close">Application</a></li>
+                        <li><a href="#login-page" data-rel="close">Login</a></li>
                         <li><a href="#accomodation-page" data-rel="close">Accommodation</a></li>
                         <li><a href="#downloads-page" data-rel="close">Download</a></li>
                     </ul>
@@ -310,13 +313,14 @@
         </header>
         <form class="ui-filterable" style=" margin-top: -25px !important; margin: 25px ;">
             <input id="searchPrograms" data-type="search" placeholder="Search"
-                style="text-align: center;" data-clear-btn="false">
+                style="text-align: center; background-color: white !important;" data-clear-btn="false">
         </form>
 
         <div class="course-heading">
             <h2>Courses</h2>
         </div>
-        <div data-role="content" style="margin: 0 10px; box-shadow: none;" data-filter="true" data-input="#searchPrograms">
+        <div data-role="content" style="margin: 0 10px; box-shadow: none;" data-filter="true"
+            data-input="#searchPrograms">
             <table data-role="table" id="bachelors-table" data-mode="reflow" class="ui-responsive table-stroke">
                 <thead>
                     <tr>
@@ -325,7 +329,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th style="text-align: center; margin-top: -6px;">Bachelors</th>
+                        <th style=" margin-top: -1px;">Bachelors</th>
                     </tr>
                     <tr>
                         <td>Bachelor of Business Administration</td>
@@ -433,14 +437,274 @@
                     <li><a href="#criteria-page" class="ui-btn"><i class="fas fa-sticky-note"></i></i><br>Criteria</a>
                     </li>
                     <li><a href="#home-page" class="ui-btn"><i class="fa-solid fa-house"></i><br>Home</a></li>
-                    <li><a href="#news-page" class="ui-btn"><i class="fa-solid fa-calendar-day"></i><br>Events</a></li>
-                    <li><a href="#login-page" class="ui-btn"><i class="fa-solid fa-address-card"></i><br>Contact</a>
+                    <li><a href="#events-page" class="ui-btn"><i class="fa-solid fa-calendar-day"></i><br>Events</a>
+                    </li>
+                    <li><a href="#contactus-page" class="ui-btn"><i class="fa-solid fa-address-card"></i><br>Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
 
     </div>
+
+
+    <!-- Event page start -->
+
+    <div data-role="page" id="events-page" class="page events-page">
+        <header>
+            <div data-role="header" data-position="fixed">
+                <div class="nav-header1">
+                    <a href="#home-page"><img class="logo-heading" src="assets/img/logo.png" height="45px"></a>
+                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay">
+                    <ul data-role="listview" style="background-color: #2C4E80;">
+                        <li><a href="#aboutus-page" data-rel="close">About Us</a></li>
+                        <li><a href="#login-page" data-rel="close">Login</a></li>
+                        <li><a href="#accomodation-page" data-rel="close">Accommodation</a></li>
+                        <li><a href="#downloads-page" data-rel="close">Download</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main-prg-heading">
+                <h2>Events</h2>
+            </div>
+            <div role="main" class="ui-content">
+                <div class="ui-grid-a set">
+                    <div class="ui-block-a">
+                        <img src="assets/img/prg4.jpg" alt="error" height="170px">
+                    </div>
+                    <div class="ui-block-b">
+                        <h2>BSW</h2>
+                        <p>Dive into understanding societal issues and skills to empower communities.</p>
+                    </div>
+                </div>
+                <div class="ui-grid-a set">
+                    <div class="ui-block-a">
+                        <img src="assets/img/prg3.jpg" alt="error" height="170px">
+                    </div>
+                    <div class="ui-block-b">
+                        <h2>BBA</h2>
+                        <p>Gain expertise in management, finance, and marketing to lead in the corporate world.</p>
+                    </div>
+                </div>
+                <div class="ui-grid-a set">
+                    <div class="ui-block-a">
+                        <img src="assets/img/prg2.jpg" alt="error" height="170px">
+                    </div>
+                    <div class="ui-block-b">
+                        <h2>BSc</h2>
+                        <p>Explore the realms of biology, chemistry, physics to understand the natural world.
+                        </p>
+                    </div>
+                </div>
+                <div class="ui-grid-a set">
+                    <div class="ui-block-a">
+                        <img src="assets/img/prg1.jpg" alt="error" height="170px">
+                    </div>
+                    <div class="ui-block-b">
+                        <h2>BCom</h2>
+                        <p>Master the intricacies of commerce, including accounting, finance, and business management.
+                        </p>
+                    </div>
+                </div>
+                <div class="ui-grid-a set">
+                    <div class="ui-block-a">
+                        <img src="assets/img/prg5.jpg" alt="error" height="170px">
+                    </div>
+                    <div class="ui-block-b">
+                        <h2>BEng</h2>
+                        <p> Focuses on various engineering disciplines such as mechanical, electrical, civil
+                            engineering.</p>
+                    </div>
+                </div>
+                <div class="ui-grid-a set">
+                    <div class="ui-block-a">
+                        <img src="assets/img/prg6.jpg" alt="error" height="170px">
+                    </div>
+                    <div class="ui-block-b">
+                        <h2>BFA</h2>
+                        <p>Concentrates on visual or performing arts, including disciplines like painting, sculpture.
+                        </p>
+                    </div>
+                </div>
+                <div class="ui-grid-a set">
+                    <div class="ui-block-a">
+                        <img src="assets/img/prg7.jpg" alt="error" height="170px">
+                    </div>
+                    <div class="ui-block-b">
+                        <h2>BDS</h2>
+                        <p> Involves the study and practice of dentistry, covering oral health, diagnosis, and
+                            treatment.</p>
+                    </div>
+                </div>
+                <div class="ui-grid-a set">
+                    <div class="ui-block-a">
+                        <img src="assets/img/prg8.jpg" alt="error" height="170px">
+                    </div>
+                    <div class="ui-block-b">
+                        <h2>BPT</h2>
+                        <p>Focuses on physical rehabilitation and therapy techniques to help patients recover from
+                            injuries.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div data-role="footer" data-position="fixed" style="border: none;" class="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#course-page" class="ui-btn"><i class="fa-solid fa-copy"></i><br>Course</a>
+                    </li>
+                    <li><a href="#criteria-page" class="ui-btn"><i class="fas fa-sticky-note"></i></i><br>Criteria</a>
+                    </li>
+                    <li><a href="#home-page" class="ui-btn"><i class="fa-solid fa-house"></i><br>Home</a></li>
+                    <li><a href="#events-page" class="ui-btn"><i class="fa-solid fa-calendar-day"></i><br>Events</a>
+                    </li>
+                    <li><a href="#contactus-page" class="ui-btn"><i class="fa-solid fa-address-card"></i><br>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Event page end -->
+
+
+
+    <!-- contact page start -->
+    <div data-role="page" id="contactus-page" class="page contactus-page">
+
+
+
+        <header>
+            <div data-role="header" data-position="fixed">
+                <div class="nav-header1">
+                    <a href="#home-page"><img class="logo-heading" src="assets/img/logo.png" height="45px"></a>
+                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay">
+                    <ul data-role="listview" style="background-color: #2C4E80;">
+                        <li><a href="#aboutus-page" data-rel="close">About Us</a></li>
+                        <li><a href="#login-page" data-rel="close">Login</a></li>
+                        <li><a href="#accomodation-page" data-rel="close">Accommodation</a></li>
+                        <li><a href="#downloads-page" data-rel="close">Download</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div data-role="main" class="ui-content">
+                <h2 class="form-heading">Contact Us</h2>
+                <form class="contact-form" id="contactForm" onsubmit="return validateForm()">
+                    <div data-role="fieldcontain">
+                        <label for="nameCntct">Name :</label>
+                        <input type="text" name="username" id="nameCntct" placeholder="Enter your Name">
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="emailCntct">Email :</label>
+                        <input type="email" name="email" id="emailCntct" placeholder="Enter your Email">
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="messageCntct">Message :</label>
+                        <textarea name="message" id="messageCntct" placeholder="Type your message here"
+                            style="border: 1px solid grey !important; background-color: white !important;"></textarea>
+                    </div>
+                    <div class="add-text-set">
+                        <p><i class="fa-solid fa-phone"></i> +442 000000000</p>
+                        <p><i class="fa-solid fa-envelope-open"></i> Abc@gmail.com</p>
+                        <p><i class="fa-solid fa-location-dot"></i> town xyz , st# , house#4</p>
+                    </div>
+                    <div id="errMsg"></div>
+                    <div data-role="content">
+                        <button type="submit" id="submitBtn" class="ui-btn"
+                            style="font-weight: 600 !important;">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <div data-role="footer" data-position="fixed" style="border: none;" class="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#course-page" class="ui-btn"><i class="fa-solid fa-copy"></i><br>Course</a>
+                    </li>
+                    <li><a href="#criteria-page" class="ui-btn"><i class="fas fa-sticky-note"></i></i><br>Criteria</a>
+                    </li>
+                    <li><a href="#home-page" class="ui-btn"><i class="fa-solid fa-house"></i><br>Home</a></li>
+                    <li><a href="#events-page" class="ui-btn"><i class="fa-solid fa-calendar-day"></i><br>Events</a>
+                    </li>
+                    <li><a href="#contactus-page" class="ui-btn"><i class="fa-solid fa-address-card"></i><br>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- contact page end -->
+
+    <!-- aboutus page start -->
+    <div data-role="page" id="aboutus-page" class="page aboutus-page">
+        <header>
+            <div data-role="header" data-position="fixed">
+                <div class="nav-header1">
+                    <a href="#home-page"><img class="logo-heading" src="assets/img/logo.png" height="45px"></a>
+                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay">
+                    <ul data-role="listview" style="background-color: #2C4E80;">
+                        <li><a href="#aboutus-page" data-rel="close">About Us</a></li>
+                        <li><a href="#login-page" data-rel="close">Login</a></li>
+                        <li><a href="#accomodation-page" data-rel="close">Accommodation</a></li>
+                        <li><a href="#downloads-page" data-rel="close">Download</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div role="main">
+                <div class="aboutus">
+                    <h2 class="educational-h2">About Us</h2>
+                    <div class="about-img"></div>
+                    <p>Our team of website designers and developers is dedicated to crafting immersive digital
+                        experiences that seamlessly blend creativity with functionality. With expertise in web design,
+                        coding, and user experience, we transform ideas into visually stunning and technically robust
+                        online solutions.</p>
+
+                    <h2 class="educational-h2">Our Vision</h2>
+                    <div class="about-img2"></div>
+                    <p>Empowering businesses to thrive in the digital landscape, our vision is to create innovative and
+                        impactful online solutions that transcend expectations. With a focus on cutting-edge technology
+                        and user-centric design, we aim to redefine the digital experience and drive sustainable growth
+                        for our clients.</p>
+                </div>
+            </div>
+        </main>
+        <div data-role="footer" data-position="fixed" style="border: none;" class="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#course-page" class="ui-btn"><i class="fa-solid fa-copy"></i><br>Course</a>
+                    </li>
+                    <li><a href="#criteria-page" class="ui-btn"><i class="fas fa-sticky-note"></i></i><br>Criteria</a>
+                    </li>
+                    <li><a href="#home-page" class="ui-btn"><i class="fa-solid fa-house"></i><br>Home</a></li>
+                    <li><a href="#events-page" class="ui-btn"><i class="fa-solid fa-calendar-day"></i><br>Events</a>
+                    </li>
+                    <li><a href="#contactus-page" class="ui-btn"><i class="fa-solid fa-address-card"></i><br>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!-- aboutus page end -->
+</body>
+<script src="assets/script.js"></script>
 </body>
 
 </html>
