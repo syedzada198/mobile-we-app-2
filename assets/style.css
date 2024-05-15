@@ -166,3 +166,23 @@ html .ui-panel-page-container-a {
 }
 
 /* home page end */
+
+/* login page start */
+.login-h2{
+    margin: 20px 0;
+}
+.login-h2 h2{
+    text-align: center;
+}
+
+.ui-input-text{
+    margin-top: 15px !important;
+    border-radius: 15px !important;
+    padding: 5px !important;
+}
+.add-margin{
+    margin-top: 20px !important;
+}
+.add-radius{
+    border-radius: 20px !important;
+}

@@ -14,7 +14,7 @@
 
 <body>
     <!-- Home page strat -->
-    <div data-role="page" id="home" class="page home-page">
+    <div data-role="page" id="home-page" class="page home-page">
         <header>
             <div data-role="header" data-position="fixed">
                 <div class="nav-header1">
@@ -88,22 +88,22 @@
                     </div>
                 </div>
             </div>
-            <div data-role="footer" data-position="fixed" style="border: none;" class="footer">
-                <div data-role="navbar">
-                    <ul>
-                        <li><a href="#" class="ui-btn"><i class="fa-solid fa-star"></i><br>Programs</a>
-                        </li>
-                        <li><a href="#faqs-page" class="ui-btn"><i class="fa-solid fa-question"></i></i><br>FAQs</a>
-                        </li>
-                        <li><a href="#home-page" class="ui-btn"><i class="fa-solid fa-house"></i><br>Home</a></li>
-                        <li><a href="#news-page" class="ui-btn"><i class="fa-solid fa-newspaper"></i><br>News</a></li>
-                        <li><a href="#login-page" class="ui-btn"><i
-                                    class="fa-regular fa-address-book"></i><br>Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            
         </main>
+        <div data-role="footer" data-position="fixed" style="border: none;" class="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#" class="ui-btn"><i class="fa-solid fa-star"></i><br>Programs</a>
+                    </li>
+                    <li><a href="#faqs-page" class="ui-btn"><i class="fa-solid fa-question"></i></i><br>FAQs</a>
+                    </li>
+                    <li><a href="#home-page" class="ui-btn"><i class="fa-solid fa-house"></i><br>Home</a></li>
+                    <li><a href="#news-page" class="ui-btn"><i class="fa-solid fa-newspaper"></i><br>News</a></li>
+                    <li><a href="#login-page" class="ui-btn"><i class="fa-regular fa-address-book"></i><br>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
     <!-- Home page end -->
 
@@ -129,22 +129,44 @@
         </header>
 
         <main>
-            <div data-role="footer" data-position="fixed" style="border: none;" class="footer">
-                <div data-role="navbar">
-                    <ul>
-                        <li><a href="#programs-page" class="ui-btn"><i class="fa-solid fa-star"></i><br>Programs</a>
-                        </li>
-                        <li><a href="#faqs-page" class="ui-btn"><i class="fa-solid fa-question"></i></i><br>FAQs</a>
-                        </li>
-                        <li><a href="#home-page" class="ui-btn"><i class="fa-solid fa-house"></i><br>Home</a></li>
-                        <li><a href="#news-page" class="ui-btn"><i class="fa-solid fa-newspaper"></i><br>News</a></li>
-                        <li><a href="#login-page" class="ui-btn"><i
-                                    class="fa-regular fa-address-book"></i><br>Contact</a>
-                        </li>
-                    </ul>
+            <div role="main" class="ui-content">
+                <div class="login-h2">
+                    <h2>Log in</h2>
+                </div>
+                <div class="login-container">
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <label for="email">Email or Username :</label>
+                            <input type="text" id="email" name="email" placeholder="Email">
+                        </div>
+                        <div class="form-group add-margin">
+                            <label for="password">Password :</label>
+                            <input type="password" id="password" name="password" placeholder="Password">
+                            <div class="forgot-password add-margin">
+                                <a href="#">Forgot Password?</a>
+                            </div>
+                        </div>
+                        <div class="form-group add-margin">
+                            <input type="submit" value="Login" data-role="button" class="add-radius">
+                        </div>
+                    </form>
                 </div>
             </div>
         </main>
+        <div data-role="footer" data-position="fixed" style="border: none;" class="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#programs-page" class="ui-btn"><i class="fa-solid fa-star"></i><br>Programs</a>
+                    </li>
+                    <li><a href="#faqs-page" class="ui-btn"><i class="fa-solid fa-question"></i></i><br>FAQs</a>
+                    </li>
+                    <li><a href="#home-page" class="ui-btn"><i class="fa-solid fa-house"></i><br>Home</a></li>
+                    <li><a href="#news-page" class="ui-btn"><i class="fa-solid fa-newspaper"></i><br>News</a></li>
+                    <li><a href="#login-page" class="ui-btn"><i class="fa-regular fa-address-book"></i><br>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <!-- login page end -->
