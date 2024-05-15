@@ -42,8 +42,11 @@ a {
 }
 
 .logo-heading {
-    padding: 10px;
+    /* padding: 10px; */
+    margin-left: 15px;
+    
 }
+
 
 .logo-heading a {
     color: white !important;
@@ -53,7 +56,7 @@ a {
 
 .ui-body-inherit,
 html .ui-panel-page-container-a {
-    margin-top: 43px;
+    margin-top: 45px;
     box-shadow: none !important;
 }
 
