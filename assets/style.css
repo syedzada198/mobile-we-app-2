@@ -293,6 +293,24 @@ html .ui-panel-page-container-a {
     background-color: #f9f9f9;
 }
 
+.change-bg-prg ul {
+    margin: 0.1px !important;
+}
+
+.ui-listview>.ui-li-static {
+    text-align: center;
+    text-shadow: none !important;
+    border: 0.5px solid grey !important;
+    padding: .4em .5em !important;
+    line-height: 1.5em !important;
+}
+
+.change-bg-prg li {
+    background-color: #f9f9f9 !important;
+    box-sizing: border-box !important;
+
+}
+
 /* contact page start */
 
 .follow-us {
@@ -372,9 +390,11 @@ textarea {
     margin: 0 !important;
     width: 100% !important;
 }
+
 .ui-select {
     width: 100% !important;
 }
+
 .contact-form textarea {
     border-radius: 20px;
     height: 120px !important;
