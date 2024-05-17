@@ -399,6 +399,8 @@ textarea {
 .contact-form textarea {
     border-radius: 20px;
     height: 120px !important;
+    width: 378px !important;
+    margin-left: 4.5px !important;
 }
 
 .ui-mobile label {
@@ -419,6 +421,7 @@ textarea {
 .add-text-set p {
     margin-top: 15px;
     font-size: 15px;
+    margin-left: 6px;
 }
 
 .add-text-set i {
