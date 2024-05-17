@@ -3,9 +3,9 @@ function submitForm() {
 }
 function validateForm() {
     let err = false;
-    var name = document.getElementById("nameCntct").value;
-    var email = document.getElementById("emailCntct").value;
-    var message = document.getElementById("messageCntct").value;
+    var name = document.getElementById("namecontact").value;
+    var email = document.getElementById("emailcontact").value;
+    var message = document.getElementById("messagecontact").value;
 
     if (name === "" || email === "" || message === "" || !isValidEmail(email)) {
         err = true;

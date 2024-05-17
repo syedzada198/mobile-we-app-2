@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exchange Portal</title>
-    <script src="https://kit.fontawesome.com/6061977da9.js" crossorigin="anonymous"></script>
+    <title>Foreign Exchange Program</title>
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/webStyle.css">
 </head>
 
 <body>
@@ -17,13 +17,14 @@
     <div data-role="page" id="home-page" class="page home-page">
         <header>
             <div data-role="header" data-position="fixed">
-                <div class="nav-header1">
-                    <a href="#home-page"><img class="logo-heading" src="assets/img/logo.png" height="45px"></a>
-                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars"></i></a>
+                <div class="nav-header-adjust">
+                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars" style="margin-left: 10px !important;"></i></a>
+                    <a href="#home-page"><img class="logo-img" src="assets/img/logo.png" height="45px"></a>
+
                 </div>
-                <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay">
-                    <ul data-role="listview" style="background-color: #2C4E80;">
-                        <li><a href="#home-page" data-rel="close">Home</a></li>
+                <div data-role="panel" id="menuPanel" data-position="left" data-display="overlay" style="width: 100% !important;">
+                    <ul data-role="listview" style="background-color: #2C4E80; ">
+                        <li><a href="#home-page" data-rel="close" style="font-size: 20px; margin-left: -8px;">Home</a></li>
                         <li><a href="#aboutus-page" data-rel="close">About Us</a></li>
                         <li><a href="#login-page" data-rel="close">Login</a></li>
                         <li><a href="#course-page" data-rel="close">Courses</a></li>
@@ -37,16 +38,16 @@
         </header>
 
         <main>
-            <div class="main-img1"></div>
+            <div class="main-background"></div>
             <div class="learn-more-btn">
                 <a href="#events-page" data-theme="darkcyan" class="ui-btn ui-btn-darkcyan">Learn more<i
                         class="fa-solid fa-arrow-right"></i></a>
             </div>
-            <div class="main-prg-heading">
+            <div class="main-program-adjust">
                 <h2>Programs</h2>
             </div>
             <div role="main" class="ui-content">
-                <div class="ui-grid-a set">
+                <div class="ui-grid-a adjust-block">
                     <div class="ui-block-a">
                         <img src="assets/img/1.jpeg" alt="error" height="170px">
                     </div>
@@ -55,7 +56,7 @@
                         <p>Immerse in global cultures, academics, forge connections, enrich your journey.</p>
                     </div>
                 </div>
-                <div class="ui-grid-a set">
+                <div class="ui-grid-a adjust-block">
                     <div class="ui-block-a">
                         <img src="assets/img/2.jpeg" alt="error" height="170px">
                     </div>
@@ -64,7 +65,7 @@
                         <p>Immerse in diverse cultures, languages, and learning styles, earning degree credits.</p>
                     </div>
                 </div>
-                <div class="ui-grid-a set">
+                <div class="ui-grid-a adjust-block">
                     <div class="ui-block-a">
                         <img src="assets/img/3.jpeg" alt="error" height="170px">
                     </div>
@@ -73,7 +74,7 @@
                         <p>Connect globally, gain international experience, become a global citizen.</p>
                     </div>
                 </div>
-                <div class="ui-grid-a set">
+                <div class="ui-grid-a adjust-block">
                     <div class="ui-block-a">
                         <img src="assets/img/4.jpeg" alt="error" height="170px">
                     </div>
@@ -85,7 +86,7 @@
             </div>
 
         </main>
-        <div data-role="footer" data-position="fixed" style="border: none;" class="footer">
+        <div data-role="footer" data-position="fixed" style="border: none;" class="footer-adjust">
             <div data-role="navbar">
                 <ul>
                     <li><a href="#eligibility-criteria-page" class="ui-btn"><i class="fa-solid fa-newspaper" style="color: #fafcff;"></i></i><br>Criteria</a>
@@ -109,13 +110,14 @@
     <div data-role="page" id="login-page" class="page login-page">
         <header>
             <div data-role="header" data-position="fixed">
-                <div class="nav-header1">
-                    <a href="#home-page"><img class="logo-heading" src="assets/img/logo.png" height="45px"></a>
-                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars"></i></a>
+                <div class="nav-header-adjust">
+                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars" style="margin-left: 10px !important;"></i></a>
+                    <a href="#home-page"><img class="logo-img" src="assets/img/logo.png" height="45px"></a>
+
                 </div>
-                <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay">
+                <div data-role="panel" id="menuPanel" data-position="left" data-display="overlay" style="width: 100% !important;">
                     <ul data-role="listview" style="background-color: #2C4E80;">
-                        <li><a href="#home-page" data-rel="close">Home</a></li>
+                        <li><a href="#home-page" data-rel="close" style="font-size: 20px; margin-left: -8px;">Home</a></li>
                         <li><a href="#aboutus-page" data-rel="close">About Us</a></li>
                         <li><a href="#login-page" data-rel="close">Login</a></li>
                         <li><a href="#course-page" data-rel="close">Courses</a></li>
@@ -154,7 +156,7 @@
                 </div>
             </div>
         </main>
-        <div data-role="footer" data-position="fixed" style="border: none;" class="footer">
+        <div data-role="footer" data-position="fixed" style="border: none;" class="footer-adjust">
             <div data-role="navbar">
                 <ul>
                     <li><a href="#eligibility-criteria-page" class="ui-btn"><i class="fa-solid fa-newspaper" style="color: #fafcff;"></i></i><br>Criteria</a>
@@ -177,13 +179,14 @@
     <div data-role="page" id="eligibility-criteria-page" class="page eligibility-criteria-page">
         <header>
             <div data-role="header" data-position="fixed">
-                <div class="nav-header1">
-                    <a href="#home-page"><img class="logo-heading" src="assets/img/logo.png" height="45px"></a>
-                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars"></i></a>
+                <div class="nav-header-adjust">
+                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars" style="margin-left: 10px !important;"></i></a>
+                    <a href="#home-page"><img class="logo-img" src="assets/img/logo.png" height="45px"></a>
+
                 </div>
-                <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay">
+                <div data-role="panel" id="menuPanel" data-position="left" data-display="overlay" style="width: 100% !important;">
                     <ul data-role="listview" style="background-color: #2C4E80;">
-                        <li><a href="#home-page" data-rel="close">Home</a></li>
+                        <li><a href="#home-page" data-rel="close" style="font-size: 20px; margin-left: -8px;">Home</a></li>
                         <li><a href="#aboutus-page" data-rel="close">About Us</a></li>
                         <li><a href="#login-page" data-rel="close">Login</a></li>
                         <li><a href="#course-page" data-rel="close">Courses</a></li>
@@ -214,7 +217,7 @@
             <div class="criteria-h3">
                 <h3>FAQs</h3>
             </div>
-            <div data-role="collapsible-set" data-theme="a" data-content-theme="a" class="set-faqs"
+            <div data-role="collapsible-set" data-theme="a" data-content-theme="a" class="adjust-criteria"
                 data-collapsed-icon="carat-r" data-expanded-icon="carat-d">
                 <div data-role="collapsible">
                     <h3> What is the purpose of the Global Academic Exchange Program for BSc and BBA students?</h3>
@@ -284,7 +287,7 @@
                         assistance, throughout their exchange experience.</p>
                 </div>
         </main>
-        <div data-role="footer" data-position="fixed" style="border: none;" class="footer">
+        <div data-role="footer" data-position="fixed" style="border: none;" class="footer-adjust">
             <div data-role="navbar">
                 <ul>
                     <li><a href="#eligibility-criteria-page" class="ui-btn"><i class="fa-solid fa-newspaper" style="color: #fafcff;"></i></i><br>Criteria</a>
@@ -309,13 +312,14 @@
     <div data-role="page" id="course-page" class="page course-page">
         <header>
             <div data-role="header" data-position="fixed">
-                <div class="nav-header1">
-                    <a href="#home-page"><img class="logo-heading" src="assets/img/logo.png" height="45px"></a>
-                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars"></i></a>
+                <div class="nav-header-adjust">
+                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars" style="margin-left: 10px !important;"></i></a>
+                    <a href="#home-page"><img class="logo-img" src="assets/img/logo.png" height="45px"></a>
+
                 </div>
-                <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay">
+                <div data-role="panel" id="menuPanel" data-position="left" data-display="overlay" style="width: 100% !important;">
                     <ul data-role="listview" style="background-color: #2C4E80;">
-                        <li><a href="#home-page" data-rel="close">Home</a></li>
+                        <li><a href="#home-page" data-rel="close" style="font-size: 20px; margin-left: -8px;">Home</a></li>
                         <li><a href="#aboutus-page" data-rel="close">About Us</a></li>
                         <li><a href="#login-page" data-rel="close">Login</a></li>
                         <li><a href="#course-page" data-rel="close">Courses</a></li>
@@ -372,7 +376,7 @@
             </ul>
         </div>
 
-        <div data-role="footer" data-position="fixed" style="border: none;" class="footer">
+        <div data-role="footer" data-position="fixed" style="border: none;" class="footer-adjust">
             <div data-role="navbar">
                 <ul>
                     <li><a href="#eligibility-criteria-page" class="ui-btn"><i class="fa-solid fa-newspaper" style="color: #fafcff;"></i></i><br>Criteria</a>
@@ -380,7 +384,7 @@
                     <li><a href="#course-page" class="ui-btn"><i class="fa-regular fa-folder-open" style="color: #ffffff;"></i><br>Course</a>
                     </li>
                     <li><a href="#home-page" class="ui-btn"><i class="fa-solid fa-house" style="color: #ffffff;"></i><br>Home</a></li>
-                    <li><a href="#events-page" class="ui-btn"><i class="fa-solid fa-address-book" style="color: #ffffff;"></i><br>Events</a>
+                    <li><a href="#events-page" class="ui-btn"><i class="fa-solid fa-calendar" style="color: #ffffff;"></i><br>Events</a>
                     </li>
                     <li><a href="#contactus-page" class="ui-btn"><i class="fa-solid fa-address-book" style="color: #ffffff;"></i><br>Contact</a>
                     </li>
@@ -396,13 +400,14 @@
     <div data-role="page" id="events-page" class="page events-page">
         <header>
             <div data-role="header" data-position="fixed">
-                <div class="nav-header1">
-                    <a href="#home-page"><img class="logo-heading" src="assets/img/logo.png" height="45px"></a>
-                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars"></i></a>
+                <div class="nav-header-adjust">
+                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars" style="margin-left: 10px !important;"></i></a>
+                    <a href="#home-page"><img class="logo-img" src="assets/img/logo.png" height="45px"></a>
+
                 </div>
-                <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay">
+                <div data-role="panel" id="menuPanel" data-position="left" data-display="overlay" style="width: 100% !important;">
                     <ul data-role="listview" style="background-color: #2C4E80;">
-                        <li><a href="#home-page" data-rel="close">Home</a></li>
+                        <li><a href="#home-page" data-rel="close" style="font-size: 20px; margin-left: -8px;">Home</a></li>
                         <li><a href="#aboutus-page" data-rel="close">About Us</a></li>
                         <li><a href="#login-page" data-rel="close">Login</a></li>
                         <li><a href="#course-page" data-rel="close">Courses</a></li>
@@ -415,11 +420,11 @@
             </div>
         </header>
         <main>
-            <div class="main-prg-heading">
+            <div class="main-program-adjust">
                 <h2>Events</h2>
             </div>
             <div role="main" class="ui-content">
-                <div class="ui-grid-a set">
+                <div class="ui-grid-a adjust-block">
                     <div class="ui-block-a">
                         <img src="assets/img/event1.jpeg" alt="error" height="170px">
                     </div>
@@ -428,7 +433,7 @@
                         <p>Introduction to university academics, campus, support</p>
                     </div>
                 </div>
-                <div class="ui-grid-a set">
+                <div class="ui-grid-a adjust-block">
                     <div class="ui-block-a">
                         <img src="assets/img/event2.jpeg" alt="error" height="170px">
                     </div>
@@ -437,7 +442,7 @@
                         <p>Practice, learn phrases, connect with native speakers.</p>
                     </div>
                 </div>
-                <div class="ui-grid-a set">
+                <div class="ui-grid-a adjust-block">
                     <div class="ui-block-a">
                         <img src="assets/img/event3.jpeg" alt="error" height="170px">
                     </div>
@@ -446,7 +451,7 @@
                         <p>Insights on global issues, communication, exchange impact.</p>
                     </div>
                 </div>
-                <div class="ui-grid-a set">
+                <div class="ui-grid-a adjust-block">
                     <div class="ui-block-a">
                         <img src="assets/img/event4.jpeg" alt="error" height="170px">
                     </div>
@@ -455,7 +460,7 @@
                         <p>Discover diverse cultures, exchange programs, interact with current students.</p>
                     </div>
                 </div>
-                <div class="ui-grid-a set">
+                <div class="ui-grid-a adjust-block">
                     <div class="ui-block-a">
                         <img src="assets/img/event5.jpeg" alt="error" height="170px">
                     </div>
@@ -464,7 +469,7 @@
                         <p>Discover programs, partners, funding at the fair.</p>
                     </div>
                 </div>
-                <div class="ui-grid-a set">
+                <div class="ui-grid-a adjust-block">
                     <div class="ui-block-a">
                         <img src="assets/img/event6.jpeg" alt="error" height="170px">
                     </div>
@@ -473,7 +478,7 @@
                         <p>Understand cultural differences, develop intercultural competence.</p>
                     </div>
                 </div>
-                <div class="ui-grid-a set">
+                <div class="ui-grid-a adjust-block">
                     <div class="ui-block-a">
                         <img src="assets/img/event7.jpeg" alt="error" height="170px">
                     </div>
@@ -482,7 +487,7 @@
                         <p>Watch international films, explore diverse cultures and perspectives.</p>
                     </div>
                 </div>
-                <div class="ui-grid-a set">
+                <div class="ui-grid-a adjust-block">
                     <div class="ui-block-a">
                         <img src="assets/img/event8.jpeg" alt="error" height="170px">
                     </div>
@@ -493,7 +498,7 @@
                 </div>
             </div>
         </main>
-        <div data-role="footer" data-position="fixed" style="border: none;" class="footer">
+        <div data-role="footer" data-position="fixed" style="border: none;" class="footer-adjust">
             <div data-role="navbar">
                 <ul>
                     <li><a href="#eligibility-criteria-page" class="ui-btn"><i class="fa-solid fa-newspaper" style="color: #fafcff;"></i></i><br>Criteria</a>
@@ -521,13 +526,14 @@
 
         <header>
             <div data-role="header" data-position="fixed">
-                <div class="nav-header1">
-                    <a href="#home-page"><img class="logo-heading" src="assets/img/logo.png" height="45px"></a>
-                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars"></i></a>
+                <div class="nav-header-adjust">
+                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars" style="margin-left: 10px !important;"></i></a>
+                    <a href="#home-page"><img class="logo-img" src="assets/img/logo.png" height="45px"></a>
+
                 </div>
-                <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay">
+                <div data-role="panel" id="menuPanel" data-position="left" data-display="overlay" style="width: 100% !important;">
                     <ul data-role="listview" style="background-color: #2C4E80;">
-                        <li><a href="#home-page" data-rel="close">Home</a></li>
+                        <li><a href="#home-page" data-rel="close" style="font-size: 20px; margin-left: -8px;">Home</a></li>
                         <li><a href="#aboutus-page" data-rel="close">About Us</a></li>
                         <li><a href="#login-page" data-rel="close">Login</a></li>
                         <li><a href="#course-page" data-rel="close">Courses</a></li>
@@ -541,19 +547,19 @@
         </header>
         <main>
             <div data-role="main" class="ui-content">
-                <h2 class="form-heading">Contact Us</h2>
-                <form class="contact-form" id="contactForm" onsubmit="return validateForm()">
+                <h2 class="form-heading-adjust">Contact Us</h2>
+                <form class="contact-form-adjust" id="contactForm" onsubmit="return validateForm()">
                     <div data-role="fieldcontain">
-                        <label for="nameCntct">Name :</label>
-                        <input type="text" name="username" id="nameCntct" placeholder="Enter your Name">
+                        <label for="namecontact">Name :</label>
+                        <input type="text" name="username" id="namecontact" placeholder="Enter your Name">
                     </div>
                     <div data-role="fieldcontain">
-                        <label for="emailCntct">Email :</label>
-                        <input type="email" name="email" id="emailCntct" placeholder="Enter your Email">
+                        <label for="emailcontact">Email :</label>
+                        <input type="email" name="email" id="emailcontact" placeholder="Enter your Email">
                     </div>
                     <div data-role="fieldcontain">
-                        <label for="messageCntct">Message :</label>
-                        <textarea name="message" id="messageCntct" placeholder="Type your message here"
+                        <label for="messagecontact">Message :</label>
+                        <textarea name="message" id="messagecontact" placeholder="Type your message here"
                             style="border: 1px solid grey !important; background-color: white !important;"></textarea>
                     </div>
                     <div class="add-text-set">
@@ -570,7 +576,7 @@
             </div>
         </main>
 
-        <div data-role="footer" data-position="fixed" style="border: none;" class="footer">
+        <div data-role="footer" data-position="fixed" style="border: none;" class="footer-adjust">
             <div data-role="navbar">
                 <ul>
                     <li><a href="#eligibility-criteria-page" class="ui-btn"><i class="fa-solid fa-newspaper" style="color: #fafcff;"></i></i><br>Criteria</a>
@@ -595,13 +601,14 @@
     <div data-role="page" id="aboutus-page" class="page aboutus-page">
         <header>
             <div data-role="header" data-position="fixed">
-                <div class="nav-header1">
-                    <a href="#home-page"><img class="logo-heading" src="assets/img/logo.png" height="45px"></a>
-                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars"></i></a>
+                <div class="nav-header-adjust">
+                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars" style="margin-left: 10px !important;"></i></a>
+                    <a href="#home-page"><img class="logo-img" src="assets/img/logo.png" height="45px"></a>
+
                 </div>
-                <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay">
+                <div data-role="panel" id="menuPanel" data-position="left" data-display="overlay" style="width: 100% !important;">
                     <ul data-role="listview" style="background-color: #2C4E80;">
-                        <li><a href="#home-page" data-rel="close">Home</a></li>
+                        <li><a href="#home-page" data-rel="close" style="font-size: 20px; margin-left: -8px;">Home</a></li>
                         <li><a href="#aboutus-page" data-rel="close">About Us</a></li>
                         <li><a href="#login-page" data-rel="close">Login</a></li>
                         <li><a href="#course-page" data-rel="close">Courses</a></li>
@@ -617,17 +624,17 @@
         <main>
             <div role="main">
                 <div class="aboutus">
-                    <h2 class="educational-h2">About Us</h2>
+                    <h2 class="aboutus-adjust">About Us</h2>
                     <div class="about-img"></div>
                     <p>Welcome to StudentExchange, your ultimate online hub for students seeking transformative international exchange opportunities. Our mission is to foster cultural exchange, global learning, and personal growth by connecting students with a wide array of exchange programs, scholarships, and resources.StudentExchange, we believe in the power of education to transcend borders and unite people from diverse backgrounds.</p>
 
-                    <h2 class="educational-h2">Our Vision</h2>
+                    <h2 class="aboutus-adjust">Our Vision</h2>
                     <div class="about-img2"></div>
                     <p>Our vision is to empower students to become global citizens, equipped with the knowledge, skills, and empathy to thrive in an interconnected world. We envision a future where every student has access to transformative international exchange opportunities that broaden their perspectives, deepen their understanding of diverse cultures, and inspire them to make a positive impact on the world.</p>
                 </div>
             </div>
         </main>
-        <div data-role="footer" data-position="fixed" style="border: none;" class="footer">
+        <div data-role="footer" data-position="fixed" style="border: none;" class="footer-adjust">
             <div data-role="navbar">
                 <ul>
                     <li><a href="#eligibility-criteria-page" class="ui-btn"><i class="fa-solid fa-newspaper" style="color: #fafcff;"></i></i><br>Criteria</a>
@@ -642,7 +649,6 @@
                 </ul>
             </div>
         </div>
-
     </div>
     <!-- aboutus page end -->
 
@@ -651,13 +657,14 @@
     <div data-role="page" id="register-page" class="page register-page">
         <header>
             <div data-role="header" data-position="fixed">
-                <div class="nav-header1">
-                    <a href="#home-page"><img class="logo-heading" src="assets/img/logo.png" height="45px"></a>
-                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars"></i></a>
+                <div class="nav-header-adjust">
+                    <a href="#menuPanel" class="icon-set"><i class="fa-solid fa-bars" style="margin-left: 10px !important;"></i></a>
+                    <a href="#home-page"><img class="logo-img" src="assets/img/logo.png" height="45px"></a>
+
                 </div>
-                <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay">
+                <div data-role="panel" id="menuPanel" data-position="left" data-display="overlay" style="width: 100% !important;">
                     <ul data-role="listview" style="background-color: #2C4E80;">
-                        <li><a href="#home-page" data-rel="close">Home</a></li>
+                        <li><a href="#home-page" data-rel="close" style="font-size: 20px; margin-left: -8px;">Home</a></li>
                         <li><a href="#aboutus-page" data-rel="close">About Us</a></li>
                         <li><a href="#login-page" data-rel="close">Login</a></li>
                         <li><a href="#course-page" data-rel="close">Courses</a></li>
@@ -669,13 +676,12 @@
                 </div>
             </div>
         </header>
-
         <main>
 
 
             <div role="main" class="ui-content criteria-h2">
                 <h2 style="margin-bottom: 15px;">Register</h2>
-                <form id="myform">
+                <form id="adjust-form">
                     <div data-role="fieldcontain">
                         <label for="name">Name:</label>
                         <input type="text" name="name" id="name" placeholder="Enter your name" required>
@@ -712,7 +718,7 @@
             </div>
         </main>
 
-        <div data-role="footer" data-position="fixed" style="border: none;" class="footer">
+        <div data-role="footer" data-position="fixed" style="border: none;" class="footer-adjust">
             <div data-role="navbar">
                 <ul>
                     <li><a href="#eligibility-criteria-page" class="ui-btn"><i class="fa-solid fa-newspaper" style="color: #fafcff;"></i></i><br>Criteria</a>
@@ -730,7 +736,5 @@
     </div>
     <!-- Register Page end -->
 </body>
-<script src="assets/script.js"></script>
-</body>
-
+<script src="assets/webScript.js"></script>
 </html>

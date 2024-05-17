@@ -15,7 +15,7 @@ a {
     box-shadow: none !important;
 }
 
-.nav-header1 {
+.nav-header-adjust {
     align-items: center;
     display: flex;
     justify-content: space-between !important;
@@ -40,21 +40,22 @@ a {
     background-color: #2C4E80 !important;
 }
 
-.nav-header1 .icon-set i {
+.nav-header-adjust .icon-set i {
     color: white;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     font-size: 20px;
 }
 
-.logo-heading {
-    margin-left: 15px;
+.logo-img {
+    margin-right: 15px ;
 
 }
 
 
-.logo-heading a {
+.logo-img a {
     color: white !important;
     text-decoration: none;
+    margin-left: 10px !important;
 
 }
 
@@ -84,19 +85,19 @@ html .ui-panel-page-container-a {
 /* header end */
 
 /* footer start */
-.footer {
+.footer-adjust {
     border: none !important;
 }
 
-.footer div {
+.footer-adjust div {
     border: none !important;
 }
 
-.footer div ul {
+.footer-adjust div ul {
     background-color: #2C4E80 !important;
 }
 
-.footer div ul a {
+.footer-adjust div ul a {
     color: white !important;
     background-color: #2C4E80 !important;
     border: none !important;
@@ -105,7 +106,7 @@ html .ui-panel-page-container-a {
 /* footer end */
 
 /* home page strat */
-.main-img1 {
+.main-background {
     background:rgba(0,0,0,0.4)url(img/main.jpeg);
     background-size: cover;
     background-position: center;
@@ -133,33 +134,33 @@ html .ui-panel-page-container-a {
 
 }
 
-.main-prg-heading h2 {
+.main-program-adjust h2 {
     margin: 15px 0 10px 0;
     text-align: center;
 }
 
-.set {
+.adjust-block {
     max-height: 170px !important;
     min-height: 128px !important;
 }
 
-.set .ui-block-a {
+.adjust-block .ui-block-a {
     width: 40%;
     padding: 0 !important;
 
 }
 
-.set .ui-block-a {
+.adjust-block .ui-block-a {
     width: 140px !important;
     margin-left: 0 !important;
 }
 
-.set img {
+.adjust-block img {
     width: 140px !important;
     object-fit: cover;
 }
 
-.set .ui-block-b {
+.adjust-block .ui-block-b {
     padding: 15px;
 
 }
@@ -230,11 +231,11 @@ html .ui-panel-page-container-a {
     text-align: center;
 }
 
-.set-faqs {
+.adjust-criteria {
     margin: 0 10px !important;
 }
 
-.set-faqs p {
+.adjust-criteria p {
     background-color: #f9f9f9 !important;
 
 }
@@ -247,20 +248,6 @@ html .ui-panel-page-container-a {
 
 
 /* course page */
-
-table th,
-td {
-    text-align: center !important;
-    border: 0.5px solid grey !important;
-    text-shadow: none !important;
-    box-shadow: none !important;
-}
-
-table tr th {
-    background-color: #2C4E80 !important;
-    color: white !important;
-
-}
 
 .ui-input-has-clear {
     padding: 0 !important;
@@ -316,14 +303,6 @@ html .ui-panel-page-container-a {
 
 /* contact page start */
 
-.follow-us {
-    padding: 20px;
-}
-
-.follow-us h2 {
-    text-align: center;
-}
-
 .ui-btn {
     background-color: #2C4E80 !important;
     color: white !important;
@@ -338,18 +317,6 @@ html .ui-panel-page-container-a {
     background-color: #f9f9f9 !important;
 }
 
-.follow-us .icon {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    font-size: 22px;
-
-}
-
-.follow-us .icon i {
-    padding: 0 10px;
-}
-
 input {
     border: 1px solid grey !important;
     padding: 12px !important;
@@ -358,7 +325,7 @@ input {
 
 }
 
-.contact-form {
+.contact-form-adjust {
     margin-top: 20px !important;
 }
 
@@ -375,7 +342,7 @@ textarea {
     background-color: #f9f9f9 !important;
 }
 
-.form-heading {
+.form-heading-adjust {
     text-align: center;
     margin-top: 5px;
 }
@@ -398,7 +365,7 @@ textarea {
     width: 100% !important;
 }
 
-.contact-form textarea {
+.contact-form-adjust textarea {
     border-radius: 20px;
     height: 120px !important;
     width: 98% !important;
@@ -439,7 +406,7 @@ textarea {
 
 /* aboutus page start */
 
-.educational-h2 {
+.aboutus-adjust {
     text-align: center !important;
     margin: 25px;
 }
