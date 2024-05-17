@@ -14,7 +14,14 @@ a {
     text-shadow: none !important;
     box-shadow: none !important;
 }
-
+.adjust-menubar{
+    width: 100% !important; 
+    height: 100vh !important; 
+    background-color: #2C4E80 !important;
+}
+.adjust-home{
+    font-size: 20px; margin-left: -8px;
+}
 .nav-header-adjust {
     align-items: center;
     display: flex;
@@ -451,3 +458,12 @@ textarea {
 }
 
 /* Register page end */
+
+.adjust-ul{
+    background-color: #ffff !important;
+}
+
+.change-color{
+    background-color: #2C4E80 !important; text-align: center !important; text-shadow: none !important; font-size:16px !important;
+
+}
