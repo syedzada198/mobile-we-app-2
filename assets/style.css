@@ -450,14 +450,15 @@ textarea {
 }
 
 .aboutus .about-img {
-    background: url(img/aboutimg1.jpg);
-    height: 250px;
+    background: url(img/about1.jpeg);
+    height: 180px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .aboutus .about-img2 {
-    background: url(img/aboutimg2.jpg);
+    background: url(img/about2.jpeg);
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
