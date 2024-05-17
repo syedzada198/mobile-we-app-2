@@ -399,13 +399,13 @@ textarea {
 .contact-form textarea {
     border-radius: 20px;
     height: 120px !important;
-    width: 378px !important;
+    width: 98% !important;
     margin-left: 4.5px !important;
 }
 
 .ui-mobile label {
     font-size: 20px;
-    margin-left: 15px !important;
+    
 }
 
 .contact-btn {
