@@ -21,6 +21,7 @@ a {
 }
 .adjust-home{
     font-size: 20px !important;
+     margin-left: -8px !important;
      margin-right: -2px !important;
 }
 .nav-header-adjust {
